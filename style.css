@@ -1,0 +1,134 @@
+@font-face 
+{
+    font-family: 'good_timesregular';
+    src: url('good_times_rg-webfont.woff2') format('woff2'),
+         url('good_times_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Le code en lui même*/
+
+h1 
+{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-align: center;
+    border: 3px gray double;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px black;
+}
+
+.troupe
+{
+    font-style: italic;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+.cime
+{
+    float: center;
+}
+
+.fonctionalités
+{
+    text-decoration: underline;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #dadbe0;
+    background-image: url(images/fond3.jpg);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:hover
+{
+    color: goldenrod;
+}
+
+a:visited
+{
+    color: crimson;
+}
+
+.comme
+{
+    text-decoration: underline;
+}
+
+nav
+{
+    float: left;
+    width: 150px;
+    border: 1px solid black;
+    height: 1075px;
+}
+
+div
+{
+    width: 1250px;
+}
+
+#tête
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#banière_image
+{
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.pionnier
+{
+    display: flex;
+    justify-content: center;
+}
+
+#papionnier
+{
+    border: 2px solid black;
+    width: 1750;
+    height: 250px;
+    justify-content: center;
+}
+
+#pa
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pat1
+{
+    text-decoration: underline;
+}
+
+.buzay
+{
+    border-radius: 20px;
+}
+
+#bloc_pa
+{
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    bottom: 0px;
+    background-color: #ECEBEB;
+}
